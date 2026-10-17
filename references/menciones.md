@@ -1,6 +1,6 @@
 # Menciones de marca fuera del sitio
 
-Origen: notas 01, 03, 10 y 14 (desinformación).
+Origen: notas 01, 03, 10, 14 (desinformación) y 15.
 
 ## Por qué
 
@@ -13,7 +13,7 @@ Origen: notas 01, 03, 10 y 14 (desinformación).
 
 | Nivel | Qué | Cómo encontrarlas | Cómo actuar |
 |---|---|---|---|
-| 1. Editorial de terceros (lo más valioso) | Publicaciones del sector, reseñas, comparativas en blogs con autoridad, reseñas de YouTube de creadores del nicho | Dominios y páginas que la IA ya cita en nuestros topics; y, sin esperar a que la IA las cite, listas «best/vs» del tema **con muchos enlaces** donde no salimos | Pedir inclusión al autor con datos verificables; empezar por las comparativas donde están todos los rivales menos nosotros |
+| 1. Editorial de terceros (lo más valioso) | Publicaciones del sector, reseñas, comparativas en blogs con autoridad, reseñas de YouTube de creadores del nicho | Dominios y páginas que la IA ya cita en nuestros topics; y, sin esperar a que la IA las cite, listas «best/vs» del tema **con muchos enlaces** donde no salimos | Pedir inclusión al autor con datos verificables; empezar por las comparativas donde están todos los rivales menos nosotros. Ofrecer a medios **informes con datos propios** que sólo nosotros tenemos |
 | 2. Comunidad | Reddit, Quora, foros de nicho | Hilos que la IA cita; hilos de Reddit en el top 5 de Google para términos del nicho | Responder sólo donde el producto resuelve de verdad, con utilidad y declarando la relación; **nunca** spam |
 | 3. Canales propios | YouTube, podcast, LinkedIn, otros dominios propios con autoridad | — | Cuidar que digan claro qué es cada producto y enlacen a la ficha |
 

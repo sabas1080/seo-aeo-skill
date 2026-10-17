@@ -19,3 +19,4 @@ de la skill citan estas notas en su línea `Origen:`.
 12. `12-aeo-3.4-seo-tecnico-para-ia.md` — curso AEO 3.4: robots.txt y bots de IA, llms.txt, JS, velocidad, schema, URLs alucinadas
 13. `13-aeo-4.1-medir-trafico-ia-bots-atribucion.md` — curso AEO 4.1: tráfico de referencia de IA, bots, atribución autodeclarada, prompts propios por categoría
 14. `14-aeo-4.2-estrategia-y-plan-de-accion.md` — curso AEO 4.2: ROI, cuatro comprobaciones de progreso, desinformación y FAQ oficial, plan de la semana 1 (fin del curso)
+15. `15-roomix-crecimiento-x100-desde-cero.md` — podcast (testimonio Roomix): herramienta gratuita con demanda, indexar basura, bots de IA bloqueados por el proveedor, agente de vigilancia, datos propios para prensa

@@ -2,7 +2,7 @@
 name: seo-aeo
 description: Use when an agent plans, audits, briefs or reports on a brand's visibility in Google search or in AI answers (ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews or AI Mode) — choosing keywords or prompts, briefing content meant to rank or be cited, reading SEO or AI-answer data, brand-gap or mention audits, YouTube SEO, crawlability for AI bots, or AI referral traffic. Complements ai-seo and seo-audit and wins when they disagree.
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
 
 # seo-aeo — SEO y visibilidad en IA

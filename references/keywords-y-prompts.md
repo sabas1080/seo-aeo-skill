@@ -1,6 +1,6 @@
 # Elegir keywords y prompts: objetivo clic u objetivo mención
 
-Origen: notas 01, 03, 08 y 13.
+Origen: notas 01, 03, 08, 13 y 15.
 
 ## 1. Armar la lista
 
@@ -8,6 +8,9 @@ Origen: notas 01, 03, 08 y 13.
   expandir con datos reales (términos coincidentes que contengan los modificadores).
 - Si el proyecto ya tiene un universo de palabras (semillas, alias de productos, Search Console), partir de él; la capa
   del proyecto dice dónde está y cómo pedir palabras nuevas.
+- **Brecha de contenido**: palabras donde todos los competidores posicionan y nosotros no; da el foco de qué cubrir.
+- **Herramientas gratuitas con demanda sin atender** (calculadoras, convertidores, comprobadores): si mucha gente busca
+  una herramienta y las que hay no sirven, construirla puede ser el primer motor de tráfico (caso Roomix: ×5 en un mes).
 
 ## 2. Tres pruebas antes de comprometerse
 
@@ -60,3 +63,5 @@ muestra: tendencias con 4-6 capturas, revisión periódica, nunca una semana sue
   - **por producto/tema** (protocolos, casos de uso).
   - 2-3 formulaciones por tema y con contexto de persona (pentester, estudiante, maker) para compensar la volatilidad.
 - Cambiar el texto de un prompt empieza otra serie: mantener un grupo fijo de control para comparar entre rondas.
+- Los prompts también sirven para **descubrir**: preguntar como lo haría un cliente revela por qué la IA recomienda a
+  los rivales y preguntas sin buena respuesta en ningún sitio, que se vuelven contenido.

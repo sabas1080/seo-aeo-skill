@@ -1,6 +1,6 @@
 # Medir el AEO: tráfico, bots, atribución y valor
 
-Origen: notas 04, 06, 13 y 14.
+Origen: notas 04, 06, 13, 14 y 15.
 
 ## Tres pilares + prompts propios
 
@@ -25,6 +25,17 @@ tráfico de IA (investigar contenido, rastreo o tema).
    ~51,6 %) antes de llamarlo problema.
 4. **Agregado por grupo de prompts**, no pregunta por pregunta.
 5. **Señal de mención sin enlace**: búsquedas de marca y tráfico directo subiendo con orgánico genérico plano.
+
+## Vigilancia con un agente programado
+
+Un agente que corre solo cada semana (o cada día) y cruza posiciones, Search Console, analítica y enlaces:
+
+- **Lista corta de consultas imprescindibles** (~20) con su posición; explica caídas (qué cambió, quién subió).
+- **Avisa de lo que se rompe**: pico de errores en la auditoría técnica, páginas que dejan de indexarse.
+- **Avisa de lo bueno que nadie ve**: enlaces o menciones nuevas de medios con autoridad.
+- **Guía de lo que ya se probó y no funcionó**, que el agente lee antes de proponer, para no repetir ideas descartadas.
+
+Entrega lecturas con accionables cuando son evidentes; decidir sigue siendo del responsable.
 
 ## ¿Vale la pena? (para explicarlo)
 

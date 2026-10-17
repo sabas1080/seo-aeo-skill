@@ -1,6 +1,6 @@
 # Auditoría técnica y on-page (Google y bots de IA)
 
-Origen: notas 02 y 12.
+Origen: notas 02, 12 y 15.
 
 ## Orden de prioridad
 
@@ -11,12 +11,18 @@ Con decenas de tipos de problema, arreglarlo todo de golpe es contraproducente. 
 3. **Acceso de bots de IA** en `robots.txt`: GPTBot y OAI-SearchBot (OpenAI), ChatGPT-User, ClaudeBot (Anthropic),
    Google-Extended, PerplexityBot. Un `Disallow` = esa plataforma no ve el contenido. Suele heredarse de plantillas o
    lo añaden CDNs (p. ej. la opción de Cloudflare de vetar entrenamiento).
+   **Además del `robots.txt`, el proveedor** (CDN, firewall, captcha antibots) puede bloquear por defecto sin que nadie lo
+   haya decidido. La evidencia de acceso es lo que vivieron **los bots reales**: el panel de bots/IA del CDN o los logs del
+   servidor (peticiones por bot y su código). Un `curl` con el user-agent del bot desde tu IP **no es evidencia**: los
+   CDN verifican la IP del bot y frenan al impostor (403/429) aunque al bot real lo dejen pasar; un 403/429 así es
+   falso positivo hasta confirmarlo en el panel o los logs.
 4. **Renderizado sin JavaScript**: Gemini y Copilot renderizan JS; **el bot de ChatGPT no**. Contenido que depende de
    JS = página vacía para ChatGPT. Prueba: pedir la página sin JS (navegador o `curl`) y buscar el texto.
 5. **Velocidad / Core Web Vitals**: una página lenta puede descartarse antes de ser evaluada por la IA. Arreglos
    típicos: imágenes grandes (< 1 MB comprimidas) y JS innecesario.
 6. **Móvil**: responsive, probar en varios dispositivos.
-7. **On-page**: title y H1 (vacíos, largos, faltantes); un solo H1 y sin saltos de nivel. La meta description al final:
+7. **On-page**: title y H1 (vacíos, largos, faltantes); un solo H1 y sin saltos de nivel; URLs legibles que digan qué
+   hay en la página (sin IDs ni números sueltos). La meta description al final:
    Google la reescribe ~63 % de las veces, generarlas en lote es aceptable.
 8. **Enlazado interno**: oportunidades, enlaces internos rotos (404) y **páginas sin enlaces internos** (reconectarlas
    reparte autoridad).
