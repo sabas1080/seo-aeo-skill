@@ -1,6 +1,6 @@
 # SEO internacional: entrar a otros países e idiomas
 
-Origen: nota 18.
+Origen: notas 18 y 20.
 
 ## 1. Validar la demanda antes de crear nada
 
@@ -37,6 +37,8 @@ Google admite las tres primeras. Sin razón legal o de marca para otra cosa, sub
 ## 4. Localizar, no traducir
 
 - Keywords nativas de cada mercado, no la traducción de las propias: otras expresiones, otra intención, otro volumen.
+- **Un idioma no es un mercado**: una sola versión en español sirve a España y a Latinoamérica con patrones de búsqueda
+  distintos; adaptarla a los mercados que más pesan en vez de tratarlos como uno.
 - Cada mercado espera **su moneda, sus métodos de pago y sus referencias culturales**.
 - Lo ideal es alguien que conozca el mercado. Para alinear equipos: una investigación general en el idioma principal
   como guía, adaptada por cada país.

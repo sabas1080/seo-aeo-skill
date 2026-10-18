@@ -1,6 +1,6 @@
 # Medir el AEO: tráfico, bots, atribución y valor
 
-Origen: notas 04, 06, 13, 14, 15 y 16.
+Origen: notas 04, 06, 13, 14, 15, 16, 19 y 20.
 
 ## Tres pilares + prompts propios
 
@@ -40,9 +40,21 @@ Un agente que corre solo cada semana (o cada día) y cruza posiciones, Search Co
 
 Entrega lecturas con accionables cuando son evidentes; decidir sigue siendo del responsable.
 
+## Reportar a dirección cuando el tráfico no sigue a la visibilidad
+
+- Reportar **trabajo + contexto + ingreso**: impresiones, clics, keywords en top 3 y top 10 **e ingreso** del canal, en
+  el mismo informe. El tráfico solo ya no basta: un sitio puede perder clics y vender más.
+- Keywords que crecen y clics que no tienen dos explicaciones posibles, que hay que separar: (1) las keywords ganadas no
+  son las que venden (revisar por intención y por página), o (2) Google cambió las reglas: con AI Overviews los clics caen
+  **~58 %** (Ahrefs, 2026; antes medían ~34 %), y los **anuncios que parecen orgánicos** se llevan clics incluso en
+  búsquedas de marca.
+- **Paciencia con método**: no cambiar de estrategia cada dos meses porque un dato bajó; medir con constancia y cambiar
+  de rumbo sólo tras darle tiempo.
+
 ## ¿Vale la pena? (para explicarlo)
 
-- Volumen todavía chico: referencia de IA ~0,25 % del tráfico de un sitio; Google manda ~210× más.
+- Volumen todavía chico: referencia de IA ~0,25 % del tráfico de un sitio; Google manda ~210× más que todas las IA
+  juntas y ~190× más que ChatGPT (dato de 2026).
 - Calidad alta: en Ahrefs, los visitantes de IA convierten ~23× más que orgánico; ~3 % de sus conversiones declaradas
   vinieron de IA.
 - Crecimiento: ×9,7 en un año; ChatGPT ya manda más que Reddit o LinkedIn.

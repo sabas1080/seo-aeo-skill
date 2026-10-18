@@ -23,3 +23,6 @@ de la skill citan estas notas en su línea `Origen:`.
 16. `16-analisis-seo-gratis-gsc-y-awt.md` — tutorial: cuatro lecturas de Search Console (CTR bajo, acciones manuales, rastreo, experiencia), 16 meses de historia, oportunidades en lo que ya posiciona
 17. `17-posicionar-keywords-objetivo-8-pasos.md` — ocho pasos: subtema vs tema padre, potencial de negocio 0-3, enfoque único (experimentación, experiencia, esfuerzo), IA para redactar no penaliza, on-page, backlinks
 18. `18-seo-internacional-nuevos-mercados.md` — SEO internacional: demanda por mercado, estructura de URL, CDN, hreflang, localizar no traducir, autoridad local, cuatro errores
+19. `19-purina-zooplus-seo-geo-ecommerce.md` — podcast (Purina y Zooplus): marca chica con mucha recomendación en IA, autoridad/autenticidad/consistencia, redes como buscador, listas que ayudan más a marcas poco conocidas, fichas en distribuidores, 22 % → 45 % de visibilidad
+20. `20-holafly-seo-internacional-y-tecnico.md` — podcast (Holafly): indexación y enlazado interno, español para España y Latinoamérica, alertas tras migraciones, reporte a dirección, AI Overviews −58 % de clics, paciencia
+21. `21-hostinger-visibilidad-ia-y-automatizacion.md` — podcast (Hostinger): API y automatización, contenido que existe y no se cita, revisión por expertos, cerrar el ciclo en Reddit, landings por subtema, orgánico vs pago

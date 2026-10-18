@@ -1,6 +1,6 @@
 # Auditoría técnica y on-page (Google y bots de IA)
 
-Origen: notas 02, 12, 15 y 16.
+Origen: notas 02, 12, 15, 16 y 20.
 
 ## Orden de prioridad
 
@@ -31,6 +31,12 @@ Con decenas de tipos de problema, arreglarlo todo de golpe es contraproducente. 
    reparte autoridad).
 9. **URLs alucinadas por la IA**: los asistentes mandan a 404 ~2,87× más que Google (ChatGPT ~1 % de sus URLs).
    Detectar URLs inventadas con tráfico de IA recurrente y redirigirlas a la página real más parecida.
+
+## Vigilancia continua
+
+Un rastreo programado con alertas de lo que **empeoró** detecta en horas lo que nadie ve: JavaScript roto tras un
+**cambio de plataforma**, 404 tras **subir una tanda de productos**, bucles de redirección. Es lo que más vale tras
+cualquier migración o carga masiva; el valor se cuenta también en lo que se dejó de perder.
 
 ## Lo que NO es palanca para la IA
 

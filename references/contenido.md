@@ -1,6 +1,6 @@
 # Crear y actualizar contenido que la IA cite (y que posicione)
 
-Origen: notas 03, 09, 12 (estructura HTML) y 17.
+Origen: notas 03, 09, 12 (estructura HTML), 17, 19 y 21.
 
 ## Lo que dicen los datos
 
@@ -47,6 +47,12 @@ páginas útiles; **texto alternativo** en todas las imágenes.
 
 - **Ponerle marca a las ideas propias**: un marco o método original se diluye como conocimiento general si no lleva
   nombre; nombrarlo con la marca, definirlo claro y repetirlo en blog, YouTube, redes, Reddit.
+- **Revisión por expertos y autores visibles**: cada pieza revisada por alguien que conoce el producto (además del
+  autor) y perfiles de autor trabajados. Caso de un fabricante: reestructurar un subsegmento con tablas comparativas,
+  FAQ, respuesta directa al inicio de cada bloque y validación de expertos subió su visibilidad en IA de 22 % a 45 % en
+  semanas.
+- **Lo que ya existe y no se cita**: la auditoría de visibilidad (ver `auditoria-de-marca.md`) muestra páginas propias
+  que la IA no cita; reescribirlas con respuestas directas y datos verificables es más barato que crear otras.
 - **Reactivar páginas dormidas**: páginas que posicionaban y fueron cayendo **y que tienen enlaces**; actualizarlas
   es de lo más rápido para ganar visibilidad en IA. Sin dominios de referencia, actualizar no basta.
 - **FAQ oficial con datos concretos**: la IA prefiere lo específico y estructurado, aunque sea falso, frente a una

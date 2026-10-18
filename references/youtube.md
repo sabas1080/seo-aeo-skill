@@ -1,6 +1,6 @@
 # YouTube: la fuente que más pesa en la IA
 
-Origen: notas 03 y 11.
+Origen: notas 03, 11 y 19.
 
 ## Por qué
 
@@ -22,6 +22,11 @@ Origen: notas 03 y 11.
 3. **Marcas de tiempo** (capítulos): Google puede enlazar directo a un capítulo.
 4. **Decir la keyword en voz alta**: Google entiende el audio.
 5. **Formato según lo que ya posiciona**: tutorial si salen tutoriales, lista si salen listas.
+
+## Lo mismo en TikTok e Instagram
+
+La IA también cita TikTok e Instagram, y la gente busca ahí. Mismo criterio: título y descripción con la consulta y
+**un audio que responda a la consulta**; un video así sale también en los resultados de video de Google.
 
 ## 3. Capa de IA
 
