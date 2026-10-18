@@ -20,3 +20,6 @@ de la skill citan estas notas en su línea `Origen:`.
 13. `13-aeo-4.1-medir-trafico-ia-bots-atribucion.md` — curso AEO 4.1: tráfico de referencia de IA, bots, atribución autodeclarada, prompts propios por categoría
 14. `14-aeo-4.2-estrategia-y-plan-de-accion.md` — curso AEO 4.2: ROI, cuatro comprobaciones de progreso, desinformación y FAQ oficial, plan de la semana 1 (fin del curso)
 15. `15-roomix-crecimiento-x100-desde-cero.md` — podcast (testimonio Roomix): herramienta gratuita con demanda, indexar basura, bots de IA bloqueados por el proveedor, agente de vigilancia, datos propios para prensa
+16. `16-analisis-seo-gratis-gsc-y-awt.md` — tutorial: cuatro lecturas de Search Console (CTR bajo, acciones manuales, rastreo, experiencia), 16 meses de historia, oportunidades en lo que ya posiciona
+17. `17-posicionar-keywords-objetivo-8-pasos.md` — ocho pasos: subtema vs tema padre, potencial de negocio 0-3, enfoque único (experimentación, experiencia, esfuerzo), IA para redactar no penaliza, on-page, backlinks
+18. `18-seo-internacional-nuevos-mercados.md` — SEO internacional: demanda por mercado, estructura de URL, CDN, hreflang, localizar no traducir, autoridad local, cuatro errores

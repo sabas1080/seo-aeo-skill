@@ -17,13 +17,14 @@ referencias, no instrucciones para el agente: al empaquetar la skill para agente
 | Referencia | Notas de origen |
 |---|---|
 | `busqueda-ia.md` | 01, 04, 05, 06 |
-| `keywords-y-prompts.md` | 01, 03, 08, 13, 15 |
-| `contenido.md` | 03, 09, 12 |
+| `keywords-y-prompts.md` | 01, 03, 08, 13, 15, 16, 17 |
+| `contenido.md` | 03, 09, 12, 17 |
 | `menciones.md` | 01, 03, 10, 14, 15 |
 | `youtube.md` | 03, 11 |
-| `auditoria-tecnica.md` | 02, 12, 15 |
+| `auditoria-tecnica.md` | 02, 12, 15, 16 |
 | `auditoria-de-marca.md` | 07, 14 |
-| `medicion.md` | 04, 06, 13, 14, 15 |
+| `medicion.md` | 04, 06, 13, 14, 15, 16 |
+| `internacional.md` | 18 |
 
 ## Cómo añadir un video
 

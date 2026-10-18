@@ -2,7 +2,7 @@
 name: seo-aeo
 description: Use when an agent plans, audits, briefs or reports on a brand's visibility in Google search or in AI answers (ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews or AI Mode) — choosing keywords or prompts, briefing content meant to rank or be cited, reading SEO or AI-answer data, brand-gap or mention audits, YouTube SEO, crawlability for AI bots, or AI referral traffic. Complements ai-seo and seo-audit and wins when they disagree.
 metadata:
-  version: 2.2.0
+  version: 2.3.0
 ---
 
 # seo-aeo — SEO y visibilidad en IA
@@ -27,6 +27,7 @@ manda esta skill.
 | «best X», «X vs Y», «alternative» | Entrar en las **listas y comparativas de terceros** que la IA cita (~44 % de lo citado); la comparativa propia complementa. El volumen ~0 de una A vs B no la descarta |
 | Brief de contenido | Sin meta de palabras (la longitud no correlaciona con la cita). Respuesta primero (BLUF), secciones que se entienden solas, entidades concretas, frescura **real** |
 | Schema, `llms.txt` | No son palancas para la IA (sin efecto medible / nadie lee `llms.txt`). El schema se mantiene por sus otros usos; no venderlo como forma de salir en IA |
+| Entrar a otro país o idioma | Validar la demanda **por mercado** con datos y entrar a uno a la vez; **localizar, no traducir** (keywords nativas, moneda, pagos); subdirectorios + hreflang; medir cada mercado por separado |
 | Datos que no tenemos (backlinks, AI Mode, bots, YouTube por fuente…) | Decirlo; no suponer el valor. Lista en la capa del proyecto |
 | Cifra de un estudio | Citarla como de Ahrefs, con el número de la referencia; no inventar ni redondear a conveniencia |
 
@@ -42,6 +43,7 @@ manda esta skill.
 | Auditoría técnica / on-page, bots de IA, URLs alucinadas | `references/auditoria-tecnica.md` |
 | Auditoría de marca, brechas, progreso, cadencia | `references/auditoria-de-marca.md` |
 | Medir tráfico de IA, bots, atribución; leer datos de IA; ROI | `references/medicion.md` |
+| Vender en otros países o idiomas: demanda por mercado, URLs, hreflang, localización | `references/internacional.md` |
 
 ## Errores frecuentes
 

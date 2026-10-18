@@ -1,12 +1,14 @@
 # Auditoría técnica y on-page (Google y bots de IA)
 
-Origen: notas 02, 12 y 15.
+Origen: notas 02, 12, 15 y 16.
 
 ## Orden de prioridad
 
 Con decenas de tipos de problema, arreglarlo todo de golpe es contraproducente. Este orden:
 
-1. **Indexación**: páginas que deberían indexarse con `noindex` (sin índice no hay posición).
+1. **Indexación**: páginas que deberían indexarse con `noindex` (sin índice no hay posición). Antes, revisar si hay
+   una **acción manual** de Google (en Search Console: Seguridad y acciones manuales): explica caídas que nada técnico
+   explica y trae cómo resolverla.
 2. **Una sola versión del sitio**: http/https y con/sin www redirigen (301) a la principal; si no, duplicados.
 3. **Acceso de bots de IA** en `robots.txt`: GPTBot y OAI-SearchBot (OpenAI), ChatGPT-User, ClaudeBot (Anthropic),
    Google-Extended, PerplexityBot. Un `Disallow` = esa plataforma no ve el contenido. Suele heredarse de plantillas o
@@ -23,7 +25,8 @@ Con decenas de tipos de problema, arreglarlo todo de golpe es contraproducente. 
 6. **Móvil**: responsive, probar en varios dispositivos.
 7. **On-page**: title y H1 (vacíos, largos, faltantes); un solo H1 y sin saltos de nivel; URLs legibles que digan qué
    hay en la página (sin IDs ni números sueltos). La meta description al final:
-   Google la reescribe ~63 % de las veces, generarlas en lote es aceptable.
+   Google la reescribe ~63 % de las veces, generarlas en lote es aceptable. Excepción: una página con **buena posición
+   y CTR bajo** pide reescribir primero su título (y su meta).
 8. **Enlazado interno**: oportunidades, enlaces internos rotos (404) y **páginas sin enlaces internos** (reconectarlas
    reparte autoridad).
 9. **URLs alucinadas por la IA**: los asistentes mandan a 404 ~2,87× más que Google (ChatGPT ~1 % de sus URLs).
@@ -38,5 +41,6 @@ Con decenas de tipos de problema, arreglarlo todo de golpe es contraproducente. 
 
 ## Caídas de tráfico
 
-Cruzar la curva de orgánico con las fechas de actualizaciones de Google; después bajar a página: comparar antes/después
+Primero, acciones manuales y lo técnico de arriba. Luego cruzar la curva de orgánico con las fechas de actualizaciones
+de Google; después bajar a página: comparar antes/después
 del update, filtrar las que empeoraron y ordenar por mayor pérdida; reoptimizarlas por intención y subtemas.

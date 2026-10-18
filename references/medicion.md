@@ -1,6 +1,6 @@
 # Medir el AEO: tráfico, bots, atribución y valor
 
-Origen: notas 04, 06, 13, 14 y 15.
+Origen: notas 04, 06, 13, 14, 15 y 16.
 
 ## Tres pilares + prompts propios
 
@@ -10,6 +10,9 @@ Origen: notas 04, 06, 13, 14 y 15.
 | Actividad de bots de IA | A qué contenido presta atención la IA | Bots de **entrenamiento** (GPTBot, Google-Extended) ≠ bots de **búsqueda/cita** (ChatGPT-User, OAI-SearchBot); sólo los segundos traen tráfico |
 | Atribución autodeclarada | Qué genera ingreso | Hay que **preguntar** («¿cómo nos conociste?» con opciones de IA); sin preguntar no aparece |
 | Prompts propios | Presencia en las preguntas que importan al negocio | La base general de prompts de una herramienta incluye mucho irrelevante; agrupar por categoría con varias formulaciones |
+
+**Search Console sólo guarda 16 meses**: comparar contra hace dos años exige haber acumulado la serie propia (o
+una herramienta conectada) desde antes; si no existe, decirlo y empezar a guardarla.
 
 Lecturas útiles: páginas que ya reciben tráfico de IA (mantenerlas al día con CTA clara) y páginas clave con cero
 tráfico de IA (investigar contenido, rastreo o tema).

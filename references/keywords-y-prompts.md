@@ -1,6 +1,6 @@
 # Elegir keywords y prompts: objetivo clic u objetivo mención
 
-Origen: notas 01, 03, 08, 13 y 15.
+Origen: notas 01, 03, 08, 13, 15, 16 y 17.
 
 ## 1. Armar la lista
 
@@ -9,15 +9,24 @@ Origen: notas 01, 03, 08, 13 y 15.
 - Si el proyecto ya tiene un universo de palabras (semillas, alias de productos, Search Console), partir de él; la capa
   del proyecto dice dónde está y cómo pedir palabras nuevas.
 - **Brecha de contenido**: palabras donde todos los competidores posicionan y nosotros no; da el foco de qué cubrir.
+- **Lo que ya posiciona** es lo más barato de subir: palabras donde ya salimos cerca del primer puesto (posiciones
+  2-5) y **fragmentos destacados** que se pueden ganar; se actualiza la página que ya existe en vez de crear otra.
 - **Herramientas gratuitas con demanda sin atender** (calculadoras, convertidores, comprobadores): si mucha gente busca
   una herramienta y las que hay no sirven, construirla puede ser el primer motor de tráfico (caso Roomix: ×5 en un mes).
 
-## 2. Tres pruebas antes de comprometerse
+## 2. Pruebas antes de comprometerse
 
-1. **Negocio**: si fuera el nº 1, ¿vende? Una definición («what is Zigbee») tiene volumen y cero compra.
+0. **¿Es un subtema?** Comparar el volumen de la keyword con el **tráfico potencial total** de la página que posiciona
+   primero: si esa página trae mucho más que el volumen (posiciona por cientos de palabras del tema padre), lo que
+   conviene es la página del **tema padre**, que cubra la keyword como sección. No es una hipótesis: es la regla.
+1. **Negocio**, en puntos: **3** = el producto es la solución directa; **2** = se relaciona fácil; **1** = se puede
+   mencionar; **0** = no encaja. Priorizar por puntos antes que por volumen. Una definición («what is Zigbee») tiene
+   volumen y 0 puntos.
 2. **Intención según la SERP**: buscarla y ver qué posiciona. Si son tiendas, un post no entra; si son tutoriales, una
    ficha tampoco.
-3. **Dificultad**: autoridad y dominios de referencia del top 10; sitios débiles en el top 10 = buena señal.
+3. **Dificultad**: autoridad y dominios de referencia del top 10; sitios débiles en el top 10 = buena señal. Los
+   backlinks siguen siendo factor de posicionamiento: cuanto más difícil la keyword, más enlaces hacen falta, y el
+   motivo para que enlacen es el enfoque único de la página (ver `contenido.md`).
 
 ## 3. Filtro de IA
 

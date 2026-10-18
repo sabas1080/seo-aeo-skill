@@ -1,6 +1,6 @@
 # Crear y actualizar contenido que la IA cite (y que posicione)
 
-Origen: notas 03, 09 y 12 (estructura HTML).
+Origen: notas 03, 09, 12 (estructura HTML) y 17.
 
 ## Lo que dicen los datos
 
@@ -20,9 +20,28 @@ No existe un «formato para robots»: lo que funciona para personas es lo que la
 2. **Atómico**: cada sección (H2) se entiende sola, porque la IA trocea y cada modelo corta distinto. Prueba: leer el
    H2 fuera de contexto; si no se entiende, reescribirlo.
 3. **Rico en entidades**: nombres concretos de producto, chip, protocolo, versión, persona y relaciones. «El sniffer X
-   v3 con radio CC1352 captura Zigbee, Thread y BLE», no «esta placa ayuda con IoT».
-4. **Simple y declarativo**: sujeto-verbo-objeto, una idea por frase; si pide dos lecturas, partirla.
+   v3 con radio CC1352 captura Zigbee, Thread y BLE», no «esta placa ayuda con IoT». Los consejos, **accionables y
+   con cifras**: «para X, al menos 5 mm y superficie antideslizante», no «elige uno bueno».
+4. **Simple y declarativo**: sujeto-verbo-objeto, una idea por frase; si pide dos lecturas, partirla. Tono de persona
+   a persona (tú/yo); texto dividido con listas, imágenes y citas.
 5. **Jerarquía limpia**: un H1, H2 para secciones, H3 para subsecciones, párrafos de una idea.
+
+## Enfoque único (lo que hace que te enlacen y te citen)
+
+Con muchas páginas cubriendo lo mismo, cubrir el tema no basta. Tres palancas:
+
+| Palanca | Qué es |
+|---|---|
+| Experimentación | Ser la fuente original: datos propios, encuestas, mini experimentos que otros quieran citar |
+| Experiencia | Haber probado lo que se cuenta (probar todos los productos de una comparativa antes de escribirla) |
+| Esfuerzo | Hacer lo que el competidor descarta por demasiado trabajo |
+
+Mejor pocas piezas únicas que cientos que no posicionan. Es también el motivo para que otros enlacen.
+
+## On-page de cada pieza
+
+Keyword en el **título, la URL, el H1 y la introducción**; meta description que invite al clic; enlaces internos a
+páginas útiles; **texto alternativo** en todas las imágenes.
 
 ## Palancas extra
 
@@ -40,7 +59,9 @@ No existe un «formato para robots»: lo que funciona para personas es lo que la
   ahí. Luego el **feed de Merchant Center** (títulos, descripciones propias, fotos de uso real) y su automatización.
 - **Indexar lo que genera negocio**, no todo; el enlazado interno es el arma para forzar rastreo de lo que vale.
 - **IA para escalar, con revisión humana**: lo hecho sólo con IA pega rápido y no se sostiene (golpeado por updates);
-  humanizado rindió ~31× más visitas en su prueba. Revisar a mano lo que paga el negocio y mantenerlo fresco.
+  humanizado rindió ~31× más visitas en su prueba. Revisar a mano lo que paga el negocio y mantenerlo fresco. Usar IA
+  para redactar no penaliza por sí mismo (Ahrefs, 600.000 páginas, en línea con Google en 2023): lo que se hunde es lo
+  genérico sin revisión ni enfoque propio.
 
 ## En un proyecto concreto
 
