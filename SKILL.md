@@ -2,7 +2,7 @@
 name: seo-aeo
 description: Use when an agent plans, audits, briefs or reports on a brand's visibility in Google search or in AI answers (ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews or AI Mode) — choosing keywords or prompts, briefing content meant to rank or be cited, reading SEO or AI-answer data, brand-gap or mention audits, YouTube SEO, crawlability for AI bots, or AI referral traffic. Complements ai-seo and seo-audit and wins when they disagree.
 metadata:
-  version: 2.4.0
+  version: 2.5.0
 ---
 
 # seo-aeo — SEO y visibilidad en IA
@@ -25,11 +25,22 @@ manda esta skill.
 | El AI Overview cita una reseña de YouTube o un hilo de Reddit de terceros sobre nuestro producto | Es lo esperable en Google y una **mención valiosa**: apoyarla y multiplicarla, no «reemplazarla» con la ficha |
 | Keyword con AI Overview que resuelve la duda | El objetivo es la **mención**, no el clic. Sin AI Overview y con intención de compra: objetivo clic con la **ficha** primero |
 | «best X», «X vs Y», «alternative» | Entrar en las **listas y comparativas de terceros** que la IA cita (~44 % de lo citado); la comparativa propia complementa. El volumen ~0 de una A vs B no la descarta |
+| «best X» cuando el sitio es un medio, blog o afiliado (no vende el producto) | Su lista **es** la lista de terceros que la IA cita: hacerla la mejor de la SERP (pruebas propias, datos, frescura). Shopping no aplica |
 | Brief de contenido | Sin meta de palabras (la longitud no correlaciona con la cita). Respuesta primero (BLUF), secciones que se entienden solas, entidades concretas, frescura **real** |
 | Schema, `llms.txt` | No son palancas para la IA (sin efecto medible / nadie lee `llms.txt`). El schema se mantiene por sus otros usos; no venderlo como forma de salir en IA |
+| Caída tras una migración, un cambio de plataforma o una carga masiva de productos | Primero comparar antes/después (301 de las URLs viejas, `noindex`/`robots.txt` heredados, canonical, contenido y JS) y descartar una acción manual; dejar un rastreo con alertas de lo que empeora. La IA no explica una caída en Google |
 | Entrar a otro país o idioma | Validar la demanda **por mercado** con datos y entrar a uno a la vez; **localizar, no traducir** (keywords nativas, moneda, pagos); subdirectorios + hreflang; medir cada mercado por separado |
 | Datos que no tenemos (backlinks, AI Mode, bots, YouTube por fuente…) | Decirlo; no suponer el valor. Lista en la capa del proyecto |
 | Cifra de un estudio | Citarla como de Ahrefs, con el número de la referencia; no inventar ni redondear a conveniencia |
+
+## Forma de la respuesta
+
+1. La recomendación o el veredicto en la primera línea.
+2. Los pasos en orden de prioridad, cada uno con su porqué en una frase.
+3. Qué dato falta y cómo se consigue.
+4. La compuerta del responsable, una sola vez, al final.
+
+Dentro del límite de palabras del encargo; sin límite, lo más corto que cubra los pasos.
 
 ## Referencias por tema
 

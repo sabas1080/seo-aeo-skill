@@ -29,7 +29,8 @@ idiomas). Las cifras de los casos son de los clientes, no estudios de Ahrefs.
 4. **hreflang**: etiqueta que le dice a Google que la página existe en otros idiomas o países y cuál es la de cada
    audiencia. Sin ella Google puede tomar las versiones como **contenido duplicado** e indexar sólo una; las páginas
    de un mismo grupo hreflang **comparten señales** de posicionamiento, así que una mala implementación pega directo al
-   ranking. Auditarla con un rastreador y alertas periódicas.
+   ranking (afirmación del video; en la práctica Google ignora un hreflang mal puesto, y no es señal de ranking por sí
+   mismo). Auditarla con un rastreador y alertas periódicas.
 5. **Localizar, no traducir**: la gente de cada país busca con otras expresiones, otra intención y otro volumen; además
    espera su moneda, sus métodos de pago y referencias culturales. Lo ideal: alguien que conozca el mercado. Método
    de L'Oréal: investigación general en inglés como guía y adaptación por país con agencias locales.

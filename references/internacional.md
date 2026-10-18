@@ -26,8 +26,10 @@ Google admite las tres primeras. Sin razón legal o de marca para otra cosa, sub
 ## 3. Técnica propia de lo internacional
 
 - **hreflang** en cada página con versiones: le dice a Google qué versión es para qué idioma o país. Sin él, las
-  versiones pueden verse como **contenido duplicado** y Google indexa sólo una; las páginas de un mismo grupo
-  hreflang **comparten señales**, así que un error pega al ranking de todas. Auditarlo con el rastreador, con alertas.
+  versiones pueden verse como **contenido duplicado**: Google indexa sólo una y muestra la equivocada en cada país.
+  Un hreflang mal puesto (sin enlace de vuelta entre versiones, código de idioma o país erróneo) Google lo **ignora**,
+  y se vuelve al problema de no tenerlo; no es una señal de ranking por sí mismo. Auditarlo con el rastreador, con
+  alertas.
 - **Velocidad desde lejos**: con un solo servidor, el visitante de otro continente carga lento y eso pesa en ese
   mercado; una **CDN** sirve desde un servidor cercano.
 - **Enlazado interno por mercado**: cada versión enlaza a páginas de su mismo idioma o mercado.

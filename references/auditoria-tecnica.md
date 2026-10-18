@@ -47,6 +47,8 @@ cualquier migración o carga masiva; el valor se cuenta también en lo que se de
 
 ## Caídas de tráfico
 
-Primero, acciones manuales y lo técnico de arriba. Luego cruzar la curva de orgánico con las fechas de actualizaciones
+Primero, acciones manuales y lo técnico de arriba. Si hubo una migración, un cambio de plataforma o una carga masiva,
+comparar antes/después de esa fecha (redirecciones de las URLs viejas, `noindex` y `robots.txt` heredados, canonical,
+contenido y JS) y dejar el rastreo con alertas corriendo. Luego cruzar la curva de orgánico con las fechas de actualizaciones
 de Google; después bajar a página: comparar antes/después
 del update, filtrar las que empeoraron y ordenar por mayor pérdida; reoptimizarlas por intención y subtemas.

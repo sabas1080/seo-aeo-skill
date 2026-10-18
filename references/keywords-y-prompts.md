@@ -41,7 +41,7 @@ Pregunta: **¿la IA puede resolver por completo lo que busca el usuario?**
 | Señales | Objetivo | Activo |
 |---|---|---|
 | Transaccional/comercial, **sin** AI Overview | **Clic** (SEO clásico) | Ficha de producto (PDP primero), luego colección |
-| Comercial **con** AI Overview («best X», «X vs Y», «X alternative») | **Mención** en la respuesta **y** clic | Entrar en las listas y comparativas **de terceros** que la IA cita (~43,8 % de lo citado son listas/comparativas); una comparativa propia honesta como complemento |
+| Comercial **con** AI Overview («best X», «X vs Y», «X alternative») | **Mención** en la respuesta **y** clic | Entrar en las listas y comparativas **de terceros** que la IA cita (~43,8 % de lo citado son listas/comparativas); una comparativa propia honesta como complemento. Si el sitio es un medio, blog o afiliado que no vende el producto, su propia lista **es** la de terceros: hacerla la mejor de la SERP |
 | Informacional con AI Overview que la resuelve | **Mención** (no tráfico) | Guía o tutorial que cubra el tema completo; YouTube; menciones externas |
 | Informacional que la IA no resuelve (pasos, código, troubleshooting) | Clic | Tutorial/guía con la ficha enlazada |
 | Volumen ~0 pero frase típica de pregunta a IA («ProductoA vs dongle genérico») | **Mención** | Sección o página de comparativa; el volumen de Google no mide cuánto se pregunta a la IA |
@@ -52,7 +52,7 @@ Pregunta: **¿la IA puede resolver por completo lo que busca el usuario?**
 
 ## 5. Slots: si no ganas por la puerta, entra por la ventana
 
-La SERP tiene muchos espacios: enlaces azules, **Shopping/Merchant Center**, imágenes, videos cortos, YouTube,
+La SERP tiene muchos espacios: enlaces azules, **Shopping/Merchant Center** (sólo para quien vende el producto), imágenes, videos cortos, YouTube,
 People Also Ask, respuestas de IA. Contra un dominio más fuerte, buscar el slot donde sí cabes y apuntar a
 **reemplazar** un resultado del mismo tipo (si sale un video, otro video mejor). Lo que entra por otro slot es venta
 incremental.
