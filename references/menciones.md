@@ -1,6 +1,6 @@
 # Menciones de marca fuera del sitio
 
-Origen: notas 01, 03, 10, 14 (desinformación), 15, 19 y 20.
+Origen: notas 01, 03, 10, 14 (desinformación), 15, 19, 20, 25 y 29.
 
 ## Por qué
 
@@ -23,6 +23,14 @@ Origen: notas 01, 03, 10, 14 (desinformación), 15, 19 y 20.
 | 2. Comunidad | Reddit, Quora, foros de nicho | Hilos que la IA cita; hilos de Reddit en el top 5 de Google para términos del nicho | Responder sólo donde el producto resuelve de verdad, con utilidad y declarando la relación; **nunca** spam |
 | 3. Canales propios | YouTube, podcast, LinkedIn, otros dominios propios con autoridad | — | Cuidar que digan claro qué es cada producto y enlacen a la ficha |
 | Fichas en distribuidores y marketplaces | La ficha que publica cada tienda que vende el producto | Buscar el producto en cada tienda | Los asistentes de compra filtran con esa ficha: imagen, título, descripción y atributos completos e iguales en todas; comprobar que el distribuidor los publicó (a menudo no lo hace) |
+
+## Fuera del sitio, además de los medios
+
+Directorios del sector, plataformas de reseñas y comparadores (en software, G2 o Capterra), marketplaces y fichas de
+negocio, con la información **exacta e igual** en todas. En negocio local y viajes pesa más: precio, horario,
+ubicación y disponibilidad completos y consistentes. Buscar también las **menciones sin enlace** (el nombre de la marca,
+del producto o de la categoría en la web) para ver quién habla de nosotros y con qué tono, y repetirlo con los
+competidores para encontrar medios.
 
 ## Vigilar
 

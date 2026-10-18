@@ -1,6 +1,6 @@
 # Elegir keywords y prompts: objetivo clic u objetivo mención
 
-Origen: notas 01, 03, 08, 13, 15, 16 y 17.
+Origen: notas 01, 03, 08, 13, 15, 16, 17, 22, 23, 26 y 29.
 
 ## 1. Armar la lista
 
@@ -11,6 +11,10 @@ Origen: notas 01, 03, 08, 13, 15, 16 y 17.
 - **Brecha de contenido**: palabras donde todos los competidores posicionan y nosotros no; da el foco de qué cubrir.
 - **Lo que ya posiciona** es lo más barato de subir: palabras donde ya salimos cerca del primer puesto (posiciones
   2-5) y **fragmentos destacados** que se pueden ganar; se actualiza la página que ya existe en vez de crear otra.
+- **Dos demandas**: dónde Google ya muestra respuestas de IA y qué temas se buscan **dentro** de los asistentes. Un
+  tema con poco volumen en Google pero **demanda creciente en IA** es una señal a atender.
+- **Temas populares**: más búsquedas por detrás en la IA (más oportunidades) y más competencia; sin autoridad todavía,
+  empezar por temas de menos volumen donde se gane autoridad temática rápido.
 - **Herramientas gratuitas con demanda sin atender** (calculadoras, convertidores, comprobadores): si mucha gente busca
   una herramienta y las que hay no sirven, construirla puede ser el primer motor de tráfico (caso Roomix: ×5 en un mes).
 

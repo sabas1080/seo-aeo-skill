@@ -1,4 +1,4 @@
-# Notas por video (Ahrefs en español)
+# Notas por video (Ahrefs en español y DataForSEO)
 
 Una nota por video: paráfrasis de las ideas y los datos que cita Ahrefs, no transcripción. Las referencias por tema
 de la skill citan estas notas en su línea `Origen:`.
@@ -26,3 +26,17 @@ de la skill citan estas notas en su línea `Origen:`.
 19. `19-purina-zooplus-seo-geo-ecommerce.md` — podcast (Purina y Zooplus): marca chica con mucha recomendación en IA, autoridad/autenticidad/consistencia, redes como buscador, listas que ayudan más a marcas poco conocidas, fichas en distribuidores, 22 % → 45 % de visibilidad
 20. `20-holafly-seo-internacional-y-tecnico.md` — podcast (Holafly): indexación y enlazado interno, español para España y Latinoamérica, alertas tras migraciones, reporte a dirección, AI Overviews −58 % de clics, paciencia
 21. `21-hostinger-visibilidad-ia-y-automatizacion.md` — podcast (Hostinger): API y automatización, contenido que existe y no se cita, revisión por expertos, cerrar el ciclo en Reddit, landings por subtema, orgánico vs pago
+22. `22-dataforseo-topic-set-geo.md` — DataForSEO: set de temas con dos demandas (AI Overviews en Google y volumen dentro de los asistentes)
+23. `23-dataforseo-reporte-geo-claude-code.md` — DataForSEO: informe de visibilidad en IA, comparación en la misma respuesta, 4 tipos de prompt por tema, línea base
+24. `24-dataforseo-5-formas-geo-api.md` — DataForSEO: cinco usos de los datos de GEO (plantillas, MCP, skills, flujos propios, producto)
+25. `25-dataforseo-seo-y-geo-sin-codigo.md` — DataForSEO: cuatro fundamentos SEO+GEO, por qué sale el competidor (quién enlaza su página citada), menciones sin enlace
+26. `26-dataforseo-plan-de-seguimiento-geo.md` — DataForSEO: plan de seguimiento desde la pregunta de negocio, cada pregunta su métrica, set fijo de prompts
+27. `27-dataforseo-visibilidad-ia-historica.md` — DataForSEO: tendencia, cambio entre fechas, menciones ganadas y perdidas, menciones con su demanda
+28. `28-dataforseo-seguimiento-respuestas-ia-api.md` — DataForSEO: tres tipos de dato para seguir respuestas de AI Overviews, AI Mode, ChatGPT y Gemini
+29. `29-dataforseo-fan-out-implicaciones.md` — DataForSEO: qué hacer con el fan-out de ChatGPT (títulos, dimensiones, dos capas, recuperar ≠ citar, fuera del sitio)
+30. `30-dataforseo-fan-out-100k-prompts.md` — DataForSEO: estudio de 100 mil prompts de ChatGPT (47,5 % abren subconsultas, 93 % de ellas son dos)
+31. `31-dataforseo-brechas-de-visibilidad-ia.md` — DataForSEO: brechas de mención, de entidad y de fuente; priorizar por volumen en IA
+32. `32-dataforseo-kpis-geo-a-acciones.md` — DataForSEO: qué hacer cuando cada KPI de GEO sale mal
+33. `33-dataforseo-4-kpis-geo.md` — DataForSEO: frecuencia de mención, cuota de voz, contexto y sentimiento, exactitud
+34. `34-dataforseo-seo-vs-geo-seguimiento.md` — DataForSEO: qué se sigue en SEO y qué en GEO
+35. `35-dataforseo-brecha-keywords-n8n.md` — DataForSEO: brecha de keywords automatizada (sin método nuevo)

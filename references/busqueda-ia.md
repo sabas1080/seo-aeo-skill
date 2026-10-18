@@ -1,6 +1,6 @@
 # Cómo funciona la búsqueda con IA y en qué se diferencian las plataformas
 
-Origen: notas 01, 04, 05 y 06 (`research/`).
+Origen: notas 01, 04, 05, 06, 29 y 30 (`research/`).
 
 ## De dónde saca la IA lo que dice
 
@@ -11,11 +11,30 @@ Origen: notas 01, 04, 05 y 06 (`research/`).
 
 ## Query fan-out
 
-- Una pregunta se abre en muchas subconsultas long tail que corren en paralelo y se combinan: de media **9-11 por
-  prompt** (hasta 28); un *deep research* llegó a **420** búsquedas para una sola consulta de compra.
+- Una pregunta se abre en subconsultas que corren por detrás y se combinan. **Cuántas depende de la plataforma**:
+  - **ChatGPT** (DataForSEO, 100 mil prompts): abre subconsultas en ~**47 %** de los prompts y, cuando lo hace, en el
+    **93 %** son **exactamente dos**; más de cinco, casi nunca.
+  - Medición que cita Ahrefs (Seer Interactive y Nectiv, sin separar plataforma): de media **9-11 por prompt** (hasta
+    28); un *deep research* de ChatGPT llegó a **420** búsquedas para una consulta de compra.
+  - Para una plataforma concreta, citar la cifra de esa plataforma; no aplicar una a otra.
+- **Cómo son en ChatGPT**: más largas que el prompt (9-14 palabras); añaden **comparación** (y, o, vs),
+  **aclaración** (qué, cuál, cómo), **evaluación** (mejor, top, reseñas) y **precio** (costo, precio). Abren más con
+  «dónde» (67 %), «quién» (60 %) y «cuál» (56 %) que con «qué» (44 %), y más en comida, viajes y negocio local. Los
+  prompts más buscados abren más (44 % → 51-55 %).
 - Consecuencia: hay que ser relevante en **todo el tema** (subtemas incluidos), no en una keyword.
-- Las subconsultas son sintéticas, cambian en cada corrida y **>95 % tienen volumen cero**: sirven como lista de
-  subtemas a cubrir, **no** como keywords a perseguir ni a meter en el universo de palabras.
+- Las subconsultas son sintéticas, cambian en cada corrida y **>95 % tienen volumen cero**: no se persiguen una por una
+  ni entran al universo de palabras. Lo que sí se usa es su **patrón**: los títulos, descripciones y secciones que dicen
+  para quién es, frente a qué alternativas, cuánto cuesta y en qué caso conviene encajan con las búsquedas que la IA
+  arma (ver `contenido.md`).
+
+## Recuperar no es citar
+
+- Las subconsultas se parecen a los **títulos (53 %) y descripciones (59 %)** de lo que la IA recupera, pero casi nada a
+  las descripciones de lo que **cita** (8 %): entrar al grupo de candidatos depende de que el título y la descripción
+  digan claro de qué va la página; la cita, de que la página sirva para la respuesta.
+- Lo más recuperado no es lo más citado (en ChatGPT: Yahoo es lo más recuperado y el quinto citado; Wikipedia, lo más
+  citado). Lo citado comparte estructura clara, entidades con nombre, respuesta directa al inicio de cada sección,
+  evidencia y tablas o listas.
 
 ## Las citas son probabilísticas
 

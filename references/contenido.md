@@ -1,6 +1,6 @@
 # Crear y actualizar contenido que la IA cite (y que posicione)
 
-Origen: notas 03, 09, 12 (estructura HTML), 17, 19 y 21.
+Origen: notas 03, 09, 12 (estructura HTML), 17, 19, 21 y 29.
 
 ## Lo que dicen los datos
 
@@ -41,7 +41,16 @@ Mejor pocas piezas únicas que cientos que no posicionan. Es también el motivo 
 ## On-page de cada pieza
 
 Keyword en el **título, la URL, el H1 y la introducción**; meta description que invite al clic; enlaces internos a
-páginas útiles; **texto alternativo** en todas las imágenes.
+páginas útiles; **texto alternativo** en todas las imágenes. El título y la descripción dicen **para quién, para qué y
+con qué criterio** («mejor CRM para agencias pequeñas: funciones, precios y comparativa», no «Guía de CRM»): es con lo
+que la IA decide si la página encaja con las búsquedas que arma (ver `busqueda-ia.md`).
+
+## Dos capas de contenido
+
+1. **Definición clara** del tema («qué es»): la mayor entrada por volumen de preguntas.
+2. **Contenido que ayuda a decidir**: para quién es, cómo funciona, frente a qué alternativas, cuánto cuesta, dónde se
+   consigue, cuál conviene en cada caso, pros y contras, tablas comparativas. Es lo que más búsquedas por detrás
+   dispara.
 
 ## Palancas extra
 

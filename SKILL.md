@@ -2,12 +2,13 @@
 name: seo-aeo
 description: Use when an agent plans, audits, briefs or reports on a brand's visibility in Google search or in AI answers (ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews or AI Mode) — choosing keywords or prompts, briefing content meant to rank or be cited, reading SEO or AI-answer data, brand-gap or mention audits, YouTube SEO, crawlability for AI bots, or AI referral traffic. Complements ai-seo and seo-audit and wins when they disagree.
 metadata:
-  version: 2.5.0
+  version: 2.6.0
 ---
 
 # seo-aeo — SEO y visibilidad en IA
 
-Destilada de los videos de Ahrefs en español (curso de AEO y afines). El SEO es la base del AEO: lo que posiciona en
+Destilada de los videos de Ahrefs en español (curso de AEO y afines) y de DataForSEO (en inglés, sobre medición de
+la visibilidad en IA). El SEO es la base del AEO: lo que posiciona en
 Google alimenta a la IA, pero la IA cita por probabilidad, por plataforma y sobre todo por **menciones de marca en
 sitios de otros**. Esta skill propone y mide; **nada se publica, envía ni cambia en el sitio sin el OK del responsable**.
 
@@ -31,7 +32,10 @@ manda esta skill.
 | Caída tras una migración, un cambio de plataforma o una carga masiva de productos | Primero comparar antes/después (301 de las URLs viejas, `noindex`/`robots.txt` heredados, canonical, contenido y JS) y descartar una acción manual; dejar un rastreo con alertas de lo que empeora. La IA no explica una caída en Google |
 | Entrar a otro país o idioma | Validar la demanda **por mercado** con datos y entrar a uno a la vez; **localizar, no traducir** (keywords nativas, moneda, pagos); subdirectorios + hreflang; medir cada mercado por separado |
 | Datos que no tenemos (backlinks, AI Mode, bots, YouTube por fuente…) | Decirlo; no suponer el valor. Lista en la capa del proyecto |
-| Cifra de un estudio | Citarla como de Ahrefs, con el número de la referencia; no inventar ni redondear a conveniencia |
+| Cuántas búsquedas hace la IA por detrás (fan-out) | Depende de la plataforma: ChatGPT abre subconsultas en ~la mitad de los prompts y casi siempre son dos (DataForSEO); el «9-11 por prompt» que cita Ahrefs no es de ChatGPT. Citar la cifra de la plataforma en cuestión |
+| La visibilidad en IA «sigue igual» entre dos fechas | El neto esconde el movimiento: reportar menciones **ganadas y perdidas** y leerlas junto al volumen de búsqueda en IA de esas preguntas |
+| Brechas frente a competidores en respuestas de IA | Separar los tres tipos: de **mención** (texto), de **entidad** (marca reconocida) y de **fuente** (dominio citado); revisar quién enlaza la página del competidor que la IA cita |
+| Cifra de un estudio | Citarla con su fuente (Ahrefs, DataForSEO…) y el número de la referencia; no inventar ni redondear a conveniencia |
 
 ## Forma de la respuesta
 

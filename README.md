@@ -1,7 +1,8 @@
 # seo-aeo — de dónde sale y cómo se mantiene
 
 Skill de SEO y visibilidad en IA (AEO) destilada de videos públicos del canal de Ahrefs en español
-(https://ahrefs.com/es). Es **genérica**: método y reglas. Lo propio de cada proyecto (qué datos tiene, qué no puede
+(https://ahrefs.com/es) y del canal de DataForSEO (en inglés; proveedor de APIs de datos SEO y de IA: sus demos de
+producto quedan fuera, su método y sus estudios entran). Es **genérica**: método y reglas. Lo propio de cada proyecto (qué datos tiene, qué no puede
 medir, reglas de la casa) va en una skill aparte del proyecto, p. ej. `seo-aeo-<proyecto>`, que se carga junto a ésta.
 
 Cada video tiene una **nota** (paráfrasis, no transcripción) en `research/NN-*.md`. Las notas son el origen de las
@@ -16,14 +17,14 @@ referencias, no instrucciones para el agente: al empaquetar la skill para agente
 
 | Referencia | Notas de origen |
 |---|---|
-| `busqueda-ia.md` | 01, 04, 05, 06 |
-| `keywords-y-prompts.md` | 01, 03, 08, 13, 15, 16, 17 |
-| `contenido.md` | 03, 09, 12, 17, 19, 21 |
-| `menciones.md` | 01, 03, 10, 14, 15, 19, 20 |
+| `busqueda-ia.md` | 01, 04, 05, 06, 29, 30 |
+| `keywords-y-prompts.md` | 01, 03, 08, 13, 15, 16, 17, 22, 23, 26, 29 |
+| `contenido.md` | 03, 09, 12, 17, 19, 21, 29 |
+| `menciones.md` | 01, 03, 10, 14, 15, 19, 20, 25, 29 |
 | `youtube.md` | 03, 11, 19 |
 | `auditoria-tecnica.md` | 02, 12, 15, 16, 20 |
-| `auditoria-de-marca.md` | 07, 14 |
-| `medicion.md` | 04, 06, 13, 14, 15, 16, 19, 20 |
+| `auditoria-de-marca.md` | 07, 14, 25, 31, 32 |
+| `medicion.md` | 04, 06, 13, 14, 15, 16, 19, 20, 23, 26, 27, 33 |
 | `internacional.md` | 18, 20 |
 
 ## Cómo añadir un video
