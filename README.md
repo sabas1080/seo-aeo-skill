@@ -70,6 +70,7 @@ git submodule update .claude/skills/seo-aeo   # la deja en la versión del punte
 
 No hace falta invocarla: el agente la carga cuando el encargo cae en su tema. Ejemplos de encargos:
 
+- «Haz una evaluación inicial de SEO y visibilidad en IA de este proyecto.» (sigue `references/evaluacion-inicial.md`)
 - «¿Qué keywords atacamos este trimestre y con qué página?»
 - «Escribe el brief de la guía de X para que la citen ChatGPT y los AI Overviews.»
 - «Lee estos resultados de IA de cuatro plataformas y dime cómo vamos frente a los competidores.»
@@ -92,11 +93,18 @@ Qué lleva:
 
 | Pieza | Qué contiene |
 |---|---|
-| Reglas de la casa | Quién aprueba; qué idioma o mercado vende; de dónde salen las afirmaciones sobre productos; dónde se anotan las tareas que salen (nunca en la skill) |
-| Entidades y competidores | Marca y variantes, submarcas, productos, marcas personales; los competidores contra los que se compara |
-| Mapa de datos | Cada idea de la skill → la tabla, reporte o herramienta que la mide, con sus trampas (unidades, ventanas, fotos que no se suman) |
-| Lo que no se puede medir | La lista explícita (backlinks, AI Mode, bots, lo que sea): el agente lo dice en vez de suponer el valor |
+| Reglas de la casa | Quién es el responsable que aprueba; qué idioma o mercado vende; de dónde salen las afirmaciones sobre productos; dónde se anotan las tareas que salen (nunca en la skill) |
+| Acceso y costos | La conexión de sólo lectura que usa el agente; qué no debe correr porque cuesta dinero o escribe (colectores, APIs de pago); límites de peticiones al sitio |
+| Entidades | Marca y variantes, submarcas, productos, marcas personales; **los nombres que chocan** con palabras comunes u otras marcas (falsos positivos al contar menciones) |
+| Competidores, clasificados | Rivales, **revendedores y distribuidores** (venden nuestro producto: su ficha citada es mención nuestra) y medios; sin esto, un revendedor parece el rival que más nos gana |
+| Mapa de datos | Cada idea de la skill → la tabla, reporte o herramienta que la mide, con sus **trampas de lectura** (unidades, ventanas, filas viejas sin grupo, fotos que no se suman, qué fuente manda si dos se contradicen) |
+| Calendario | Cuándo se capturan las rondas de IA y las fotos del proveedor, y cuántas hay: dice si ya hay tendencia o sólo línea base |
+| Lo que no se puede medir | La lista explícita (backlinks, AI Mode, bots, plataformas sin fuentes legibles, lo que sea): el agente lo dice en vez de suponer el valor |
 | Aplicación por tema (opcional) | Cómo se aplica cada referencia de la skill en el proyecto, con un apartado por archivo de `references/` |
+
+Si el proyecto no tiene capa, la evaluación inicial (`references/evaluacion-inicial.md`) termina con un borrador de ella
+para que el responsable lo apruebe: la segunda corrida ya no paga el descubrimiento (en la prueba en frío, un tercio
+de las consultas fueron sólo para entender el esquema).
 
 Esqueleto mínimo:
 
@@ -142,6 +150,7 @@ Mantener en el archivo de datos lo atado a la herramienta (si se cambia de prove
 | `auditoria-de-marca.md` | 07, 14, 25, 31, 32 |
 | `medicion.md` | 04, 06, 13, 14, 15, 16, 19, 20, 23, 26, 27, 33 |
 | `internacional.md` | 18, 20 |
+| `evaluacion-inicial.md` | 02, 07, 13, 14, 16, 23, 26 (y la prueba en frío, ver «Pruebas») |
 
 ## Cómo añadir un video
 
@@ -153,8 +162,9 @@ Mantener en el archivo de datos lo atado a la herramienta (si se cambia de prove
 3. Editar **sólo** esas referencias: integrar lo nuevo en su sección (no pegar un bloque «video NN»), actualizar las
    cifras si el video trae datos más recientes y añadir el número de nota a su línea `Origen:`.
 4. Si cambia una regla de la tabla de `SKILL.md` (algo que altera la respuesta de un agente), editarla ahí también.
-5. Subir `metadata.version` de `SKILL.md` (menor si sólo se enriquecen referencias; mayor si cambia una regla),
-   commit y push.
+5. Subir `metadata.version` de `SKILL.md`: **menor** si se enriquecen referencias o se agregan o ajustan reglas;
+   **mayor** sólo si se rompe algo para las capas de proyecto (se renombra o quita una referencia, cambia la forma de la
+   respuesta). Commit y push.
 6. En cada proyecto que la usa: actualizar el puntero del submódulo y volver a empaquetarla para sus agentes (ver
    «Actualizar»).
 
@@ -163,3 +173,8 @@ Mantener en el archivo de datos lo atado a la herramienta (si se cambia de prove
 La skill se probó con agentes sin ella y con ella en tres escenarios: leer resultados de IA de varias plataformas,
 escribir un plan de contenido para salir en respuestas de IA, y priorizar keywords con y sin AI Overview. Las fallas
 de la línea base son las filas de la tabla de `SKILL.md`.
+
+**Prueba en frío (2.7.0).** Un agente con la 2.6.0 y sin capa del proyecto hizo la evaluación inicial de un proyecto
+real y dejó una bitácora: por dónde empezó, dónde la skill no le dijo qué hacer y qué le faltó saber. De ahí salieron
+`references/evaluacion-inicial.md`, cinco reglas de la tabla (demanda o posición, plataforma sin fuentes legibles,
+dato propio contra proveedor, nombres que chocan, revendedores) y lo que lleva la capa del proyecto.

@@ -2,7 +2,7 @@
 name: seo-aeo
 description: Use when an agent plans, audits, briefs or reports on a brand's visibility in Google search or in AI answers (ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews or AI Mode) — choosing keywords or prompts, briefing content meant to rank or be cited, reading SEO or AI-answer data, brand-gap or mention audits, YouTube SEO, crawlability for AI bots, or AI referral traffic. Complements ai-seo and seo-audit and wins when they disagree.
 metadata:
-  version: 2.6.0
+  version: 2.7.0
 ---
 
 # seo-aeo — SEO y visibilidad en IA
@@ -13,8 +13,8 @@ Google alimenta a la IA, pero la IA cita por probabilidad, por plataforma y sobr
 sitios de otros**. Esta skill propone y mide; **nada se publica, envía ni cambia en el sitio sin el OK del responsable**.
 
 **Capa del proyecto:** si existe una skill `seo-aeo-<proyecto>` (por ejemplo `seo-aeo-miempresa`), cárgala: dice qué
-tabla mide cada cosa, qué no se puede medir y las reglas de la casa. Si `ai-seo` o `seo-audit` dicen otra cosa,
-manda esta skill.
+tabla mide cada cosa, qué no se puede medir y las reglas de la casa. Si no existe, o el encargo es una primera
+evaluación, seguir `references/evaluacion-inicial.md`. Si `ai-seo` o `seo-audit` dicen otra cosa, manda esta skill.
 
 ## Reglas que cambian la respuesta
 
@@ -29,9 +29,14 @@ manda esta skill.
 | «best X» cuando el sitio es un medio, blog o afiliado (no vende el producto) | Su lista **es** la lista de terceros que la IA cita: hacerla la mejor de la SERP (pruebas propias, datos, frescura). Shopping no aplica |
 | Brief de contenido | Sin meta de palabras (la longitud no correlaciona con la cita). Respuesta primero (BLUF), secciones que se entienden solas, entidades concretas, frescura **real** |
 | Schema, `llms.txt` | No son palancas para la IA (sin efecto medible / nadie lee `llms.txt`). El schema se mantiene por sus otros usos; no venderlo como forma de salir en IA |
+| Caída (o subida) de tráfico en Google | Primero separar **demanda** de **posición**: impresiones que caen con la posición estable son demanda (temporada, un pico que pasó), no un problema del sitio |
 | Caída tras una migración, un cambio de plataforma o una carga masiva de productos | Primero comparar antes/después (301 de las URLs viejas, `noindex`/`robots.txt` heredados, canonical, contenido y JS) y descartar una acción manual; dejar un rastreo con alertas de lo que empeora. La IA no explica una caída en Google |
 | Entrar a otro país o idioma | Validar la demanda **por mercado** con datos y entrar a uno a la vez; **localizar, no traducir** (keywords nativas, moneda, pagos); subdirectorios + hreflang; medir cada mercado por separado |
 | Datos que no tenemos (backlinks, AI Mode, bots, YouTube por fuente…) | Decirlo; no suponer el valor. Lista en la capa del proyecto |
+| Una plataforma devuelve fuentes como redirecciones opacas (p. ej. Gemini por API: `vertexaisearch…/grounding-api-redirect/…`) | Resolver la redirección si aún vale; si no, esa plataforma es **no medible** en citas, nunca «0 citas» |
+| El dato propio (Search Console, analítica, ventas) contradice al del proveedor (DataForSEO, Ahrefs…) | Manda el propio; reportar la diferencia con su causa probable (Search Console cuenta la cita en un AI Overview como posición, una sola captura, otro dispositivo u otro país) |
+| El nombre de la marca o del producto es también una palabra común o se parece a otra marca | Leer el texto de la respuesta antes de contarla como mención: el detector da falsos positivos |
+| Quien gana en la SERP o en la IA vende nuestro producto (revendedor, distribuidor, marketplace) | No es rival: su ficha citada es una mención nuestra; apoyarla (ficha completa e igual) en vez de competirle |
 | Cuántas búsquedas hace la IA por detrás (fan-out) | Depende de la plataforma: ChatGPT abre subconsultas en ~la mitad de los prompts y casi siempre son dos (DataForSEO); el «9-11 por prompt» que cita Ahrefs no es de ChatGPT. Citar la cifra de la plataforma en cuestión |
 | La visibilidad en IA «sigue igual» entre dos fechas | El neto esconde el movimiento: reportar menciones **ganadas y perdidas** y leerlas junto al volumen de búsqueda en IA de esas preguntas |
 | Brechas frente a competidores en respuestas de IA | Separar los tres tipos: de **mención** (texto), de **entidad** (marca reconocida) y de **fuente** (dominio citado); revisar quién enlaza la página del competidor que la IA cita |
@@ -50,6 +55,7 @@ Dentro del límite de palabras del encargo; sin límite, lo más corto que cubra
 
 | Tarea | Leer |
 |---|---|
+| Primera vez en un proyecto o sin capa del proyecto: evaluación inicial | `references/evaluacion-inicial.md` |
 | Entender cómo cita la IA y qué prefiere cada plataforma | `references/busqueda-ia.md` |
 | Elegir keywords, slots y prompts; objetivo clic vs mención | `references/keywords-y-prompts.md` |
 | Escribir o actualizar fichas, guías, posts, FAQ | `references/contenido.md` |

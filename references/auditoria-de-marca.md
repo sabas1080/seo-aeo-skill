@@ -73,6 +73,8 @@ rivales menos nosotros.
 
 ## Plan de arranque (semana 1)
 
+Lo que sigue a la evaluación inicial (`evaluacion-inicial.md`), que lo usa como esqueleto del informe.
+
 1. Revisar `robots.txt`.
 2. Montar métricas: canal de IA en la analítica, «¿cómo nos conociste?» en la compra, grupos de prompts.
 3. Actualizar de verdad las 5-10 páginas principales.

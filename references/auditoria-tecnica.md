@@ -47,7 +47,9 @@ cualquier migración o carga masiva; el valor se cuenta también en lo que se de
 
 ## Caídas de tráfico
 
-Primero, acciones manuales y lo técnico de arriba. Si hubo una migración, un cambio de plataforma o una carga masiva,
+Antes que nada, ¿bajó la **demanda** o la **posición**? Si las impresiones de las consultas caen con la posición
+estable, es demanda (temporada, un pico que pasó, un mercado que se fue) y no hay nada técnico que buscar. Si empeoró
+la posición: acciones manuales y lo técnico de arriba. Si hubo una migración, un cambio de plataforma o una carga masiva,
 comparar antes/después de esa fecha (redirecciones de las URLs viejas, `noindex` y `robots.txt` heredados, canonical,
 contenido y JS) y dejar el rastreo con alertas corriendo. Luego cruzar la curva de orgánico con las fechas de actualizaciones
 de Google; después bajar a página: comparar antes/después
