@@ -44,8 +44,6 @@ En un clon nuevo del proyecto: `git submodule update --init`.
 git clone https://github.com/sabas1080/seo-aeo-skill.git ~/.claude/skills/seo-aeo
 ```
 
-El repo es privado: hace falta acceso de lectura.
-
 **Para otros agentes** (empaquetado propio, plataformas de agentes): copiar `SKILL.md`, `references/` y, si se quiere,
 este README. **Dejar fuera `research/` y `.git`**: las notas son el origen de las referencias, no instrucciones.
 
